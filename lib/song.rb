@@ -55,5 +55,8 @@ class Song
     new_song.artist_name = file_name.split(" - ")[0]
     @@all << new_song
   end
+  def destroy_all
+    @@all = []
+  end
 
 end
