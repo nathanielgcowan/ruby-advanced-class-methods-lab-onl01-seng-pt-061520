@@ -42,7 +42,7 @@ class Song
     @@all.sort_by { |song| song.name }
   end
   
-  def new_from_filename("Taylor Swift - Blank Space.mp3")
+  def new_from_filename(file_name)
     new_song
   end
 end
