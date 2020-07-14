@@ -16,5 +16,5 @@ class Song
     new_song
   end
   
- 
+  def new
 end
